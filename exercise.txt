@@ -1,0 +1,4 @@
+1) write a program to convert given hours into total minutes 
+2) write a program to convert given inches into foot. 
+3) write a program to convert bytes into kilobytes. 
+4) write a program to convert kilometer into meter. 
