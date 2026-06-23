@@ -2,3 +2,5 @@
 2) write a program to convert given inches into foot. 
 3) write a program to convert bytes into kilobytes. 
 4) write a program to convert kilometer into meter. 
+5) write a program to convert given inches into foot and remaining inches.
+6) write a program to convert given grams into kilograms and remaining grams.
