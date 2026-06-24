@@ -80,6 +80,7 @@ use wise categories of operators
     %= can be as a%=b when we need write a = a % b
 -----------------------------------------------------------------------
     unary operator
+
         unary operator works upon 1 variable.
         variable is also called operands
         
@@ -88,6 +89,7 @@ use wise categories of operators
             first assign and then increment 
         ++a can be write as a = a + 1 (prefix)
             first in increment then assign
+    
     a = 10 
     b = 0 
     
