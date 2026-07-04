@@ -22,6 +22,7 @@ if else exercise
 3) write a program to findout which shape is lesser in area from given length and width. 
 
 if else ladder 
+
 1) write a program to accept 5 subject marks from user. 
 make total of it  
 find percentage using total 
