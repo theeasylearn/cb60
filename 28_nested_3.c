@@ -1,0 +1,57 @@
+/*
+    write a program to findout income tax , net income and annual income from given monthly income as per below rules
+    annual income                           Tax Rate
+    Above Rs. 24,00,000                     30%
+    From Rs. 20,00,001 to Rs. 24,00,000	    25%
+    From Rs. 16,00,001 to Rs. 20,00,000	    20%
+    From Rs. 12,00,000 to Rs. 16,00,000	    15%
+    below 12,00,000                          0%
+
+    steps
+    1) accept monthly income
+    2) calculate annual income
+    3) calculate tax as per rule
+    4) calculate net income using gross annual income and tax
+*/
+#include <stdio.h>
+void main()
+{
+    int monthly_income, annual_income;
+    float tax, net_income;
+
+    printf("Enter monthly income");
+    scanf("%d", &monthly_income);
+    if (monthly_income < 0)
+    {
+        printf("monthly income can not be less then zero");
+    }
+    else
+    {
+        annual_income = monthly_income * 12;
+        if (annual_income < 1200000)
+        {
+            tax = 0;
+        }
+        else if (annual_income < 1600000)
+        {
+            tax = (annual_income * 15) / 100;
+        }
+        else if (annual_income < 2000000)
+        {
+            tax = (annual_income * 20) / 100;
+        }
+        else if (annual_income < 2400000)
+        {
+            tax = (annual_income * 25) / 100;
+        }
+        else
+        {
+            tax = (annual_income * 30) / 100;
+        }
+        // calculate net income
+        net_income = annual_income - tax;
+        printf("annual income = %d", annual_income);
+        printf("\n tax = %.2f", tax);
+        printf("\n net income = %.2f", net_income);
+    }
+}

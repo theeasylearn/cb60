@@ -48,5 +48,4 @@ void main()
     printf("annual income = %d", annual_income);
     printf("\n tax = %.2f", tax);
     printf("\n net income = %.2f", net_income);
-
 }

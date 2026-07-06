@@ -17,16 +17,13 @@ there are 2 types of loop
         2.1 do while loop 
 
 1) while loop 
-    in while loop we check condition after while keyword. if condition is true then code block given inside { } pair will execute once. then again condition will be checked if condition is true true then code block given inside {} execute again. this will continue until condition is false. 
-    
+    in while loop we check condition after while keyword. if condition is true then code block given inside { } pair will execute once. then again condition will be checked if condition is true true then code block given inside {} execute again. this will continue until condition is false.     
     syntax
     -------------------------------
     while (relational expression) # < > == <= >= !=
     {
         // code block will execute if relational expression is true 
     }
-
-    
 
 2) for loop 
 ----------------------------------------------
