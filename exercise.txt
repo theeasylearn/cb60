@@ -110,11 +110,10 @@ loop
 6) 1 4 9 16 25 36  ..... 1000
 7) 1 8 27 64 ...... 10000
 
-8) write a program to findout power of given base and exponent 
-base = 2 
-exponent = 5
-process : 2 x 2 x 2 x 2 x 2 
-output = 32
+8) write a program to findout  sum of all the even numbers between given start and stop value 
+
+9) write a program to calculate compound interest of given amount, rate, year. 
+
 
 9) write a program to findout whether given number is perfect number or not. 
 these are sum perfect number 
