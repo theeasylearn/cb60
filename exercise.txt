@@ -131,6 +131,16 @@ process
 
 for loop 
 --------------------------------
+10 x 10 = 100
+10 x 09 = 90
+....
+10 x 01 = 10
+
+2 4 6 8 10 12 14 ..... 100
+10 20 30 40 50 ...... 1000
+
+
+
 1) write a program to findout given number is prime number or not 
 2) write a program to findout all the days in given month 
     input : 1
@@ -147,6 +157,9 @@ do while
 write a program to print ascii table of capital letter A TO Z
  
 nested loop 
+1 4 27 256 3125 ........ 10000
+
+
 1
 1 0
 1 0 1
@@ -194,6 +207,7 @@ E D C B A
 
 array 
 ----------
+
 1) write a program to findout coolest day in january in bhavnagar from array which has temperature
 
 2) write a program to count vowels in given string. 
