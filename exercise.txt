@@ -155,7 +155,10 @@ Z -  X -  V -  T -  R - A
 
 do while 
 -----------------
- 
+1) write a program findout whether given perfect number or not 
+2) write a program to findout whether given number is palindrome number or not 
+3) write a program to findout whether given number is prime number or not 
+
 nested loop 
 1 4 27 256 3125 ........ 10000
 
