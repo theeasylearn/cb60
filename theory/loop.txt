@@ -63,7 +63,7 @@ for(;;)
      count= count - 10; //80
   }while(count>=10); //0>=10
 printf("\n good bye");
-
+------------------------------------------------------
 nested loop 
     when we use any loop inside any other loop, it is nested loop. we can use for loop inside while loop, or while loop inside for loop. we can use do while inside for/while loop or vice versa. 
 
