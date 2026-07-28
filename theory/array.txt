@@ -8,16 +8,23 @@ when we need to store many related values of same type, we should use array.
 
 what is array/List?
 --------------
-array is special type of variable in which we can store multiple values. each value in array has same name but it has unique position also called index. 1st value in array is at 0th position, 2nd value in array is at 1st position. it means position start from 0. position of last value is size of array - 1. technically position is called index.  it must be positive integer value. index can be given directly or using variable's value
+array is special type of variable in which 
+    we can store multiple values. 
+    each value in array has same name & type 
+    but it has unique position also called index. 
+    1st value in array is at 0th position, 
+    2nd value in array is at 1st position. 
+    it means position start from 0. position of last value is size of array - 1. technically position is called index.  it must be positive integer value. 
+    index can be given directly or using variable's value. we must use variable name and position to access, change value in array
 
-all the value in array must be same type in c language.
+all the value in single array must be same type in c language.
 size of the array must be set at the time of creating array. 
 during execution of program size can not be changed. 
 we can change value at any given position. but we can not add & delete position. 
 
 how to create an array?
 syntax 
-------------------
+---------------------
 datatype array[size];
 
 example
@@ -37,11 +44,11 @@ scanf("%d",&age[0]);
 
 types of array 
 one dimensional array (1D array)
-    if array has only one dimensional then it is called one dimensional array. in short it is called 1D array. 1d array is vector
+    if array has only one dimension then it is called one dimensional array. in short it is called 1D array. 1d array is also called vector. 
 
 two dimensional array 
     if array has 2 dimension, it is called two dimensional array. 
-    ind 2d array one dimension is horizontal and second is vertical. 2d array is like table in excel. where horizontal lines are called row and vertical lines are called columns. combination of row and column is called cell. same concept allow applies to 2d array in c language. whenever we try to access/change any value in 2d array, we have to use arrayname row position and column position.  we need to use 2 loop one for row and one for column. 
+    ind 2d array one dimension is horizontal and second is vertical. 2d array is like table in excel. where horizontal lines are called row and vertical lines are called columns. combination of row and column is called cell. same concept allow applies to 2d array in c language. whenever we try to access/change any value in 2d array, we have to use array name row position and column position.  we need to use 2 loop one for row and one for column. 
 
 --------------------------------
 how to create 2d array?

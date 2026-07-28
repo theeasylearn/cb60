@@ -60,8 +60,7 @@ what is pass by value in function.
     always function can return at most one value 
 
 what is pass by reference?
-
- pass by reference means passing address of variable when we call function. in that case function should have argument name starting with *(astrik) when we define function. by doing this we can directly modify arguments value into function and it will update original variable's value. 
+pass by reference means passing address of variable when we call function. in that case function should have argument name starting with *(astrik) when we define function. by doing this we can directly modify arguments value into function and it will update original variable's value. 
 
  it is useful when we want to create function that return multiple value. 
 
@@ -71,10 +70,11 @@ what is recursion?
 when function call it self repeatedly until some condition is evaluated as false, is called recursion.
 recursion is difficult to understand therefore change. it must last option to solve any problem as it very resource hungry approach means it will use too much processing power and memory. 
 
-
 rules 
 -------------------------------------------------------------------------------
 1) each and every function in recursion will always complete. it will not remain uncomplete. 
 2) function called in recursion will always complete in reverse order of calling.
 3) each argument we pass in recursion & local variables created in function occupy separate memory location for each function call.
-4) must have some condition which stop recursion
+4) must have some condition(relational expression) which break recursion and stop it 
+
+
