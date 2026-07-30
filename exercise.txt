@@ -218,6 +218,24 @@ write a program to accept 10 person income from user. and display it. use long a
 
 1) write a program to findout coolest day in january in bhavnagar from array which has temperature
 
+2) write a program to findout given value existing in array or not. 
+array : 10 20 30 40 50 
+value : 20
+output : Found at 2nd position 
+
+value : 25 
+output : value not found 
+
+3) write a program are two array is same or not 
+array-1 : 10 20 30 40 50
+array-2 : 10 20 30 40 50
+output : both array are same
+ 
+array-1 : 10 20 30 40 50
+array-2 : 10 20 35 40 50
+output : both array are not same 
+
+
 2) write a program to count vowels in given string. 
 3) write a program to count digits in given string. 
 4) write a program to count vowels, consonant and digits and words in given string 

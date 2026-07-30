@@ -3,7 +3,8 @@
 #include <stdio.h>
 void main()
 {
-    int num = 100, gap = 1;
+    int num = 100, 
+    gap = 1;
     do
     {
         printf("%d ", num);
