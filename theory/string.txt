@@ -1,8 +1,8 @@
 what is string?
-String means words like your name surname city address etc.
+String means words like your name surname, city address etc.
 in c language, string is sequence of letters that always ends with \0 (null). 
 some example of string 
-name,surname,address city etc 
+name,surname,address, city etc 
 
 there is no built-in (ready made) datatype in to store string c language. so we use 1 dimension array of character to store string.
 

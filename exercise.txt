@@ -236,7 +236,7 @@ array-2 : 10 20 35 40 50
 output : both array are not same 
 
 
-2) write a program to count vowels in given string. 
+2) write a program to count consonant in given string. 
 3) write a program to count digits in given string. 
 4) write a program to count vowels, consonant and digits and words in given string 
 
