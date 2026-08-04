@@ -240,10 +240,12 @@ output : both array are not same
 3) write a program to count digits in given string. 
 4) write a program to count vowels, consonant and digits and words in given string 
 
-5) write a program to convert uppercase string into lower case string. 
+5) write a program to convert lowercase string into uppercase string. 
+
 6) write a program to convert lowercase letter into uppercase and uppercase letter into lowercase. 
    line = Good Morning 
    line2 = gOOD mORNING
+
 
 7) write a program to edit program no 51, calculate average sales of each product & display it 
 8) write a program to findout minimum value from float array statically initialized 
