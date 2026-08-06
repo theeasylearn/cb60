@@ -48,17 +48,16 @@ one dimensional array (1D array)
 
 two dimensional array 
     if array has 2 dimension, it is called two dimensional array. 
-    ind 2d array one dimension is horizontal and second is vertical. 2d array is like table in excel. where horizontal lines are called row and vertical lines are called columns. combination of row and column is called cell. same concept allow applies to 2d array in c language. whenever we try to access/change any value in 2d array, we have to use array name row position and column position.  we need to use 2 loop one for row and one for column. 
+    in 2d array one dimension is horizontal, and second is vertical. 2d array is like table in excel. where horizontal lines are called row and vertical lines are called columns. combination of row and column is called cell. same concept allow applies to 2d array in c language. whenever we try to access/change any value in 2d array, we have to use array name row position and column position.  we need to use 2 loop one for row and one for column. 
 
---------------------------------
+---------------------------------------------
 how to create 2d array?
 syntax 
-    datatype array-name[row][column]
+    datatype array-name[row-size][column-size]
 example 
-    int sales[4][7];
+    int sales[4][7]; 
 how to take input from user in 2d array?
 scanf("%d",&sales[0][0]); //it will accept input from user and store in 0th row 0th column. 
 
 how to display value from array
 printf("%d",sales[0][0]); //it will accept input from user and store in 0th row 0th column. 
- 
